@@ -1,0 +1,19 @@
+:root
+{
+    /* Couleurs */
+    --background: hsl(222,32%,10%);
+    --oxford-blue: hsl(218, 38%, 14%);
+    --blanc: hsla(0,0%,100%);
+    --texte: hsl(0,0%,88%);
+    --light-azure: hsl(214,84%,56%);
+    /* Police */
+    --p-inter: "Inter", sans-serif;
+    --p-lg : 22px;
+    --p-md: 16px;
+    --p-sm: 14px;
+    --p-xs: 12px;
+
+
+    /* Padding et Margin */
+    --px: 120px;
+}

@@ -1,0 +1,118 @@
+@import url(reset.css);
+@import url(variable.css);
+
+
+.logo
+
+{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 var(--px);
+}
+
+.logo span
+{
+    margin: 2px;
+    font-size: var(--p-lg);
+    font-weight: 600;
+}
+
+#x-color
+{
+    color: var(--light-azure);
+}
+.container
+{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.launch
+{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.space-x
+{
+    height: 145px;
+    cursor: pointer;
+    margin-left: px;
+}
+
+.launchinfo
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: auto;
+    background: var(--oxford-blue);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.launchinfo p 
+
+{
+    margin: 5px;
+}
+
+.filtre
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: auto;
+    background: var(--oxford-blue);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.filtre select
+{
+    color: var(--blanc);
+    background: var(--oxford-blue);
+    font-size: var(--p-sm);
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.space
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.card
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background: var(--oxford-blue);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card img
+{
+    height: 120px;
+    width: 120px;
+    object-fit: fill;
+}
+
+
+@media screen and (max-width:500px) {
+    .space-x
+    {
+        display: none;
+    }
+}

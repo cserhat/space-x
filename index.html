@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space X</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--JS-->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <!--Polices-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <header class="logo">
+            <span>Space</span>
+            <span id="x-color">X</span>
+        </header>
+
+        <main>
+
+            <section class="launch">
+                <div class="space-x">
+                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1795097/spacex-starship-clipart-xl.png" alt="space-x">
+                 </div>
+                <div class="launchinfo">
+                    <h3>Le prochaine lancement</h3>
+                    <p class="nom"></p>
+                    <p class="date"></p>
+                    <p class="compteur"></p>
+                </div>
+            </section>
+
+            <section class="lancement">
+                <div class="filtre">
+                    <h3>Filtre Les Space X</h3>
+                    <div class="option">
+                    <select id="filtre">
+                        <option value="tous">Tous les lancement</option>
+                        <option value="reussis">Lancement réussis</option>
+                        <option value="echoues">Lancement échoues</option>
+                    </select>
+                    </div>
+                </div>
+            </section>
+
+            <section class="space"></section>
+
+        </main>
+    </div>
+
+</body>
+</html>
